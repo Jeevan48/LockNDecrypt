@@ -1,0 +1,4 @@
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/build/CMakeFiles/rebuild_cache.dir
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/build/CMakeFiles/edit_cache.dir
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/build/CMakeFiles/cryption.dir
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/build/CMakeFiles/encrypt_decrypt.dir

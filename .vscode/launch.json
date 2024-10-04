@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug encrypt_decrypt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/encrypt_decrypt",  // Path to the executable after build
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "environment": [
+                {
+                    "name": "CMAKE_COMMAND",
+                    "value": "/usr/bin/cmake"
+                }
+            ]
+        },
+        {
+            "name": "Debug cryption (standalone)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/cryption",  // Path to the executable after build
+            "args": ["your_task_data_here"],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "environment": [
+                {
+                    "name": "CMAKE_COMMAND",
+                    "value": "/usr/bin/cmake"
+                }
+            ]
+        }
+    ]
+}

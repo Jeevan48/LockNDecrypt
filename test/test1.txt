@@ -1,0 +1,7 @@
+Hello World!
+Hi This is important file for me. I want to keep it Safe,
+So I am using Jeevan's C++ project of encryption decryption
+
+I want this safe
+
+1234567890

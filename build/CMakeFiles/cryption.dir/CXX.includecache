@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/File Handling/IO.cpp
+IO.hpp
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/File Handling/IO.hpp
+
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/File Handling/IO.hpp
+fstream
+-
+string
+-
+iostream
+-
+
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/File Handling/ReadEnv.cpp
+IO.hpp
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/File Handling/IO.hpp
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/Processes/Task.hpp
+iostream
+-
+string
+-
+sstream
+-
+../File Handling/IO.hpp
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/File Handling/IO.hpp
+
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/encryptDecrypt/Cryption.cpp
+Cryption.hpp
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/encryptDecrypt/Cryption.hpp
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/Processes/Task.hpp
+-
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/File Handling/ReadEnv.cpp
+-
+
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/encryptDecrypt/Cryption.hpp
+string
+-
+
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/encryptDecrypt/CryptionMain.cpp
+iostream
+-
+Cryption.hpp
+/home/kpit/Desktop/Practice/Applied Operating system/File Encryption/app/encryptDecrypt/Cryption.hpp
+
